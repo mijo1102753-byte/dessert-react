@@ -1,6 +1,6 @@
 /* bannerType */
 .banner_inner {
-  background: url(../img/banner_img.jpg) no-repeat center / cover;
+  background: url(../../img/banner_img.jpg) no-repeat center / cover;
   padding: 120px 0;
   text-align: center;
   color: #fff;

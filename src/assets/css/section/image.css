@@ -13,10 +13,10 @@
   box-sizing: border-box;
 }
 .image.img1 {
-  background: url(../img/cake_red.png) no-repeat center/ cover;
+  background: url(../../img/cake_red.png) no-repeat center/ cover;
 }
 .image.img2 {
-  background: url(../img/cake_choco.png) no-repeat center/ cover;
+  background: url(../../img/cake_choco.png) no-repeat center/ cover;
 }
 .image_title {
   font-size: 32px;

@@ -7,13 +7,13 @@
   height: 580px;
 }
 .s1 {
-  background: url(../img/bannerSlider01.jpg) center top;
+  background: url(../../img/bannerSlider01.jpg) center top;
 }
 .s2 {
-  background: url(../img/bannerSlider02.jpg) center top;
+  background: url(../../img/bannerSlider02.jpg) center top;
 }
 .s3 {
-  background: url(../img/bannerSlider03.jpg) center top;
+  background: url(../../img/bannerSlider03.jpg) center top;
 }
 #sliderType .desc {
   font-family: "GMarketSans";
