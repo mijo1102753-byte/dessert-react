@@ -1,5 +1,6 @@
 import React from "react";
-import { headerData } from "../data/headerData";
+// import { headerData } from "../data/headerData";
+import { menuData, memberData } from "../data/headerData";
 
 const Header = () => {
   return (
@@ -12,16 +13,16 @@ const Header = () => {
         </div>
         <div className="header_menu">
           <ul>
-            {headerData.menu.map((menu, index) => (
+            {menuData.map((menu, index) => (
               <li key={index}>
-                <a href="#">{menu}</a>
+                <a href={menu.link}>{menu.title}</a>
               </li>
             ))}
           </ul>
         </div>
         <div className="header_member">
-          {headerData.member.map((mem, index) => (
-            <a href="#" key={index}>
+          {memberData.map((mem, index) => (
+            <a href="/" key={index}>
               {mem}
             </a>
           ))}

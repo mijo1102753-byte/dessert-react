@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "./components/Header";
 import Slider from "./components/Slider";
 import Image from "./components/Image";
@@ -8,7 +8,17 @@ import Banner from "./components/Banner";
 import Text from "./components/Text";
 import Footer from "./components/Footer";
 
+import link from "./utils/link";
+import reveal from "./utils/reveal";
+import smooth from "./utils/smooth";
+
 const App = () => {
+  useEffect(() => {
+    link();
+    reveal();
+    smooth();
+  });
+
   return (
     <>
       <Header />
